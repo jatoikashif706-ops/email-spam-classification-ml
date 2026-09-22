@@ -1,0 +1,26 @@
+Markdown
+📧 Email Spam Classification using Machine Learning
+
+An automated Natural Language Processing (NLP) pipeline built using Scikit-Learn to classify email and SMS messages into **Spam** or **Ham (Legitimate)**.
+
+📌 Project Overview
+* **Domain**: Machine Learning / NLP
+* **Dataset**: SMS/Email Spam Collection Dataset (Kaggle)
+* **Model**: Multinomial Naive Bayes
+* **Feature Extraction**: TF-IDF Vectorizer (Term Frequency-Inverse Document Frequency)
+
+ 📊 Performance Metrics
+| Metric | Score |
+| :--- | :--- |
+| **Accuracy** | 98.0% |
+| **Precision** | 97.5% |
+| **Recall** | 91.0% |
+| **F1-Score** | 94.0% |
+
+📈 Model Confusion Matrix
+![Confusion Matrix](assets/confusion_matrix.png)
+
+🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/jatoikashif706-ops//email-spam-classification-ml.git
